@@ -1,0 +1,81 @@
+/* src/components/AddBlogForm.module.css */
+.form {
+  background-color: #ffffff; /* White card background */
+  padding: 30px 35px; /* Increased padding */
+  border-radius: 12px; /* Slightly more rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08); /* Softer, more spread shadow */
+  max-width: 650px; /* Slightly wider form */
+  margin: 30px auto; /* More margin around the form */
+  border: 1px solid #E5E7EB; /* Subtle border */
+}
+
+.form h2 { /* Heading inside the form card */
+  text-align: center;
+  margin-bottom: 25px;
+  color: #1F2937; /* Dark slate text */
+  font-size: 1.8em; /* Larger heading for the form itself */
+  font-weight: 700; /* Bolder */
+}
+
+.formGroup {
+  margin-bottom: 22px; /* Consistent spacing */
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600; /* Slightly bolder labels */
+  color: #374151; /* Darker gray for labels */
+  font-size: 0.95em;
+}
+
+.formGroup input,
+.formGroup textarea {
+  width: 100%;
+  padding: 14px 16px; /* More padding inside inputs */
+  border: 1px solid #D1D5DB; /* Lighter gray border */
+  border-radius: 8px; /* More rounded inputs */
+  font-size: 1em;
+  color: #1F2937;
+  background-color: #F9FAFB; /* Very light gray input background */
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.formGroup input:focus,
+.formGroup textarea:focus {
+  outline: none;
+  border-color: #3B82F6; /* Primary blue for focus border */
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2); /* Soft blue glow on focus */
+  background-color: #FFFFFF; /* White background on focus */
+}
+
+.formGroup textarea {
+  min-height: 120px; /* Ensure textarea has a good default height */
+  resize: vertical; /* Allow vertical resizing */
+}
+
+.submitButton {
+  display: block;
+  width: 100%;
+  padding: 14px 20px; /* Generous padding */
+  background-color: #10B981; /* Vibrant green (your current color, or from palette) */
+  color: white;
+  border: none;
+  border-radius: 8px; /* Consistent rounded corners */
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  margin-top: 10px; /* Added margin on top */
+}
+
+.submitButton:hover {
+  background-color: #059669; /* Darker shade of green */
+  transform: translateY(-2px); /* Slight lift on hover */
+  box-shadow: 0 4px 8px rgba(16, 185, 129, 0.2); /* Subtle shadow for button */
+}
+
+/* Specific styling for date input placeholder if needed */
+.formGroup input[type="date"]::placeholder {
+  color: #9CA3AF; /* Lighter placeholder text */
+}

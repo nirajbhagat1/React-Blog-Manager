@@ -1,0 +1,14 @@
+/* src/components/BlogList.module.css */
+.blogListContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Creates responsive columns */
+  gap: 25px; /* Space between cards */
+  padding: 0; /* Remove padding if items have their own margins */
+  margin-top: 20px;
+}
+
+/* Adjust BlogItem margin if using grid with gap */
+/* You might need to go into BlogItem.module.css and set margin: 0;
+   if the .blogListContainer's gap property is handling spacing.
+   Or, ensure the .blogItem itself doesn't have conflicting horizontal margins like 'auto'.
+*/

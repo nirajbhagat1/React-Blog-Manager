@@ -1,0 +1,30 @@
+/* src/pages/HomePage.module.css */
+.heroSection {
+  background-color: #ffffff; /* CHANGED: White background */
+  color: #1F2937;             /* CHANGED: Dark text color for paragraph */
+  padding: 40px 20px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  /* ADDED: Subtle border to distinguish from page background */
+  border: 1px solid #E5E7EB; 
+  /* Optional: or a subtle shadow if you prefer over a border */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); */
+}
+
+.heroSection h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5em;
+  color: #0a111d; /* CHANGED: Blue color for the heading for some pop */
+  /* Or use your dark text color: color: #1F2937; */
+}
+
+.heroSection p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  color: #374151; /* Ensure paragraph text is also dark enough */
+}
+
+/* .pageContent {
+ 
+} */

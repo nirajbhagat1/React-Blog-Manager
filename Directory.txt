@@ -1,0 +1,25 @@
+my-blog-app/
+├── node_modules/      # Dependencies (managed by npm/yarn)
+├── public/            # Static assets (like index.html, favicon)
+│   ├── index.html     # The main HTML page your app loads into
+│   └── ...            # (other files like Vite logo, etc.)
+├── src/               # <<< YOUR MAIN APPLICATION CODE GOES HERE >>>
+│   ├── assets/        # (Optional: for images, fonts etc. Vite puts some here)
+│   ├── components/    # <<< REUSABLE UI PIECES >>>
+│   │   ├── BlogItem.jsx  # <<< YOU JUST CREATED THIS!
+│   │   ├── BlogList.jsx  # (We'll create this next)
+│   │   └── AddBlogForm.jsx # (We'll create this later)
+│   ├── pages/         # (We'll create this folder and files later for page views)
+│   │   ├── HomePage.jsx
+│   │   ├── AddBlogPage.jsx
+│   │   └── (Bonus) BlogDetailPage.jsx
+│   ├── App.css        # Styles for the main App component (or global styles)
+│   ├── App.jsx        # Main application component (currently simple heading)
+│   ├── main.jsx       # Entry point of your React app (renders App.jsx)
+│   └── index.css      # More global styles (Vite might set this up)
+├── .gitignore         # Tells Git which files to ignore
+├── index.html         # (In Vite, the root index.html is here, not in public/)
+├── package.json       # Project info, dependencies, scripts (like `npm run dev`)
+├── package-lock.json  # Records exact dependency versions
+├── vite.config.js     # Vite configuration file
+└── README.md          # Information about your project

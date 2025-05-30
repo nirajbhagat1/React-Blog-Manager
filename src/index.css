@@ -1,0 +1,33 @@
+/* src/index.css or src/App.css */
+
+/* Import Google Font (example: Roboto) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Basic Reset / Box Sizing */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif; /* Your chosen font */
+  line-height: 1.6;
+  color: #333; /* Dark gray for text */
+  background-color: #f4f7f6; /* A very light off-white/gray for background */
+  margin: 0; /* Ensure no default body margin */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.75em;
+  color: #1a2a3a; /* A darker color for headings */
+}
+
+a {
+  color: #007bff; /* A standard blue for links */
+  text-decoration: none; /* Remove underlines by default */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover for links */
+}

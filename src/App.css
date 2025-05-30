@@ -1,0 +1,39 @@
+/* src/App.css - Selected Updates */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap'); /* Example: Montserrat font */
+
+body {
+  font-family: 'Montserrat', sans-serif; /* New font */
+  line-height: 1.7;
+  color: #1F2937; /* New text color from palette */
+  background-color: #F9FAFB; /* New background from palette */
+}
+
+.App nav {
+  background-color: #FFFFFF; /* White nav */
+  /* ... other nav styles ... */
+}
+
+.App nav ul li a {
+  color: #1F2937; /* Dark text for nav links */
+}
+
+.App nav ul li a:hover,
+.App nav ul li a.active {
+  color: #3B82F6; /* Primary color for hover/active */
+  border-bottom: 2px solid #3B82F6;
+}
+
+.App footer {
+  background-color: #1F2937; /* Dark slate for footer */
+  color: #F9FAFB; /* Light text on footer */
+  /* ... other footer styles ... */
+}
+
+/* Update button colors */
+/* Example: Primary button (used for "Add Blog" on form) */
+/* In AddBlogForm.module.css, you'd change .submitButton background-color */
+/* .submitButton { background-color: #10B981; } /* Example: Green from palette */
+
+/* Example: Danger button (Delete) */
+/* In BlogItem.module.css, you'd change .deleteButton background-color */
+/* .deleteButton { background-color: #EF4444; } /* A suitable red */
